@@ -1,0 +1,196 @@
+
+@font-face {
+    font-family: halvatica;
+    src: url(/NowReact/Reactgt/HelveticaNowDisplay-Bold_VMHV5twUMR_2SBNfxj1ry.woff2);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:halvatica ; 
+    box-sizing: border-box;
+    
+    
+
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+      background: conic-gradient(pink,red,rgb(106, 197, 224));
+   
+}
+
+/* #car1{
+    height: 200px;
+    width: 100px;
+    background-color: red;
+}
+
+#car2{
+    position: absolute;
+    height: 250px;
+    width: 120px;
+    background-color: aqua;
+}
+#car3{
+    height: 280px;
+    width: 150px;
+    background-color: antiquewhite;
+} */
+
+/* #box{
+ 
+    height: 2000px;
+    width: 100%;
+    background-color: rebeccapurple;
+}
+#smallbox{
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+}
+
+#innerbox{
+       position: relative;
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+}
+
+#micro{
+    position:absolute;
+  
+    left: 50%;
+    
+    height: 20px;
+    width: 20px;
+    background-color: goldenrod;
+}
+
+#fixed{
+    position:absolute;
+    position: fixed;
+    right: 0px;
+    height: 250px;
+    width: 250px;
+    background-color: aqua;
+} */
+
+
+/* #perent{
+    height: 3000px;
+    width: 100%;
+    background-color:red;
+}
+
+#child1{
+    height: 2000px;
+    width: 100%;
+    background-color: rgb(126, 136, 33);
+}
+#child2{
+    height: 2000px;
+    width: 100%;
+    background-color: rgb(27, 146, 136);
+
+}
+
+#sticky{
+    position: sticky;
+    top: 10%;
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+} */
+
+
+
+
+
+#main{
+    width: 100%;
+    height: 100%;
+    /* background: conic-gradient(pink,red,rgb(106, 197, 224)); */
+
+    color: black;
+}
+
+#navbar a{
+    color: #0e0202;
+    position:relative;
+    padding-left: 2%;
+    font-size: 10px;
+    
+
+
+}
+#navbar{
+        display: flex;
+        text-align: justify;
+    justify-content: space-between;
+    justify-items: center;
+    position:relative;
+    top: 5%;
+    
+}
+ #navbar a:hover{
+    text-decoration: underline color(aqua red green blue);
+    color: aqua;
+    font-size: 15px;
+    
+}
+#navbar h3{
+    text-align: center;
+    font-size: 30px;
+    margin-left:20%;
+}
+#navbar  h4 {
+    font-size: 10px;
+    
+
+    
+}
+#h{
+    padding-left:35%;
+}
+#h3{
+    padding-right: 2%;
+}
+#h2{
+    padding-left: 2%;
+}
+
+#conten{
+    font-size: 18rem;
+
+}
+
+#footer{
+    position: relative;
+    bottom: 90%;
+    font-size: 0.5rem;
+}
+@font-face {
+    font-family:new ;
+    src: url(/NowReact//Reactgt//RetroBritish-DemoVersion-Regular.otf);
+}
+#niche {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 80%;
+    font-size: 1.5rem;
+
+}
+#collection{
+    font-family: new;
+}
+#show{
+    color: #0e0202;
+}
+
+#navbar h4:hover{
+    font-size: 15px;
+    color: rgb(0, 216, 126);
+}

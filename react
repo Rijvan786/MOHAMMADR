@@ -1,0 +1,103 @@
+react js libery hai 
+react dom aapki react libery ko real dom ki    dom ke sath connect karne ka kam karti hai 
+web react js or react dom
+app react js or react native
+
+
+null=properties , class, id
+
+
+RactDom Real dom ki copy bna ke rakhta hai  is called virtul dom & and virtul dom check karenge aur
+ usi  ko  change karenga not directly change real dom isse only vahi change honga not 
+ all rerender 
+ React mai  main.jsx mai wrap kar dete hai app ko and then app mai apne pages  ko import karte hai 
+
+
+
+ hooks - special type of function 
+                                            html
+                                                   
+                                                   body
+                                                         
+
+                                                          main
+
+
+
+card wala data 
+ const users=[
+  {
+    "name": "Rohan Mehta",
+    "city": "Mumbai",
+    "age": 28,
+    "profession": "Software Engineer",
+    "profile_photo": "https://randomuser.me/api/portraits/men/32.jpg"
+  },
+  {
+    "name": "Ananya Sharma",
+    "city": "Delhi",
+    "age": 25,
+    "profession": "UI/UX Designer",
+    "profile_photo": "https://randomuser.me/api/portraits/women/44.jpg"
+  },
+  {
+    "name": "Arjun Singh",
+    "city": "Bangalore",
+    "age": 30,
+    "profession": "Data Scientist",
+    "profile_photo": "https://randomuser.me/api/portraits/men/65.jpg"
+  },
+  {
+    "name": "Sneha Patel",
+    "city": "Ahmedabad",
+    "age": 27,
+    "profession": "Digital Marketer",
+    "profile_photo": "https://randomuser.me/api/portraits/women/68.jpg"
+  },
+  {
+    "name": "Imran Khan",
+    "city": "Hyderabad",
+    "age": 35,
+    "profession": "Doctor",
+    "profile_photo": "https://randomuser.me/api/portraits/men/75.jpg"
+  }
+]
+
+
+  return (
+    <div>
+   <div className='p-10 flex flex-wrap gap-10 absolute top-10'>
+{
+    users.map(function(elem,idx) {  
+  return <Card key={idx}  username={elem.name} age={elem.age} city={elem.city} profession={elem.profession} photu={elem.profile_photo}/> 
+})}
+
+   </div>
+ 
+    </div>
+  )
+
+
+  # UseEffect ka use automatic call ho jata hai aur iska side mai api se data lane ka kam chalte rah ta hai 
+ // #React Router Dom 
+  
+
+# Routing:- ak page se dusre jane ke liye 
+
+
+
+isme <Browser> ko  main.app mai 
+and app mai Routes Route ka use karte and  link karne Link ka vhi page mai 
+
+Route ke ander hi page name de de                              or ak pages name ka folder bana kar 
+
+
+
+                                      
+                                       ***********Context api
+
+State management ka work karta hai aur data ko cetralize karne ka kam karta hai aur koi bhi element yaha se data receive kar sakta hai 
+directy ye drawback ko dur karta hai props ke 
+
+
+Redux toolkit alag se use karna padta hai but Context api built in hota hai 
