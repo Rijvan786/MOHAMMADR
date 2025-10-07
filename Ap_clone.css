@@ -1,0 +1,369 @@
+
+@font-face {
+    font-family:apple ;
+    src: url('/sf-pro-text_semibold.woff2');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color:#FFFFFF;
+    font-family: apple;
+    letter-spacing: inherit;
+    
+}
+#nav{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    background-color:#FFFFFF    ;
+    align-items:center;
+    justify-content: center;
+    gap: 40px;
+    color: #2A2A2A;
+    overflow: auto;
+
+    
+}
+#nav h4{
+font-size: 12px;
+letter-spacing: -.01em;
+
+
+}
+
+#conten{
+background-color:#000000;
+height:580px;
+width:100%;
+color: white;
+}
+#conten h1{
+    display: flex;
+    justify-content: center;
+    font-size:55px;
+    padding-top: 40px;
+}
+
+#conten h4 {
+    font-size:30px;
+    font-weight:110;
+    display: flex;
+    justify-content: center;
+
+}
+#button1{
+    height:45px;
+    width: 135px;
+    position: relative;
+    left: 40.5%;
+    top: 20px;
+    background-color: #0077ED;
+    border-radius: 80px;
+
+    color: white;
+    font-size: 17px;
+    border: none;
+}
+#button2{
+    height:50px;
+    width: 80px;
+    position: relative;
+    left: 42%;
+    top: 20px;
+ 
+    border-radius: 80px;
+    border:3px solid #0077ED; ;
+     color: #0077ED;
+    background-color: black;
+       font-size: 17px;
+}
+#conten img{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+  
+
+/* CART FOR DETAILS fOUNDER COFOUNDER AND OTHER'S */
+
+#mainpro{
+  
+    height: 800px;
+    width: 100%;
+    background-color: #FFFFFF;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   
+    flex-wrap: wrap;
+
+    
+}
+
+#profile{
+    position: absolute;
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    color: rgb(35, 37, 37);
+    /* box-shadow:5px 10px 25px hsl(170, 46%, 50%); */
+    
+    margin-top: 7%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-radius: 10px;
+    position: absolute;
+    font-size: 0.5rem;
+    font-family: apple;
+    left: 3%;
+    border: 2px solid rgb(247, 246, 243);
+   z-index: auto;
+    
+}
+
+
+#profile img{
+    position: absolute;
+    top: 2px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+#profile h1{
+position: absolute;
+top: 240px;
+font-size: 25px;
+word-spacing: 5px;
+font-weight:400;
+font-family: apple;
+}
+#profile h2{
+position: absolute;
+top: 275px;
+font-size: 15px;
+word-spacing: 4px;
+font-family: apple;
+
+}
+#profile button{
+    height: 45px;
+    width: 155px;
+    transform:translateY(-20px);
+    border-radius: 75px;
+    font-family: apple;
+    background-color:   #0077ED;;
+    border: 2px solid rgb(7, 6, 6);
+
+}
+
+
+#profile:hover{
+     height: 400px;
+    width: 300px;
+    background-color: white;
+    color: rgb(35, 37, 37);
+    box-shadow:5px 10px 25px rgb(92, 226, 215);
+    
+    margin-top: 5% ;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-radius: 7px;
+    position: absolute;
+    font-size: 0.5rem;
+    font-family: apple;
+ 
+    border: 2px solid rgb(19, 23, 23);
+}
+#profile button:hover{
+    height: 45px;
+    width: 155px;
+    transform:translateY(-20px);
+    border-radius: 75px;
+    font-family: apple;
+    background-color:  white;
+    border: 2px solid #0077ED; ;
+}
+
+
+/* #yaha section */
+.profilee{
+    height: 400px;
+    width: 300px;
+    background-color:white;
+    color: rgb(35, 37, 37);
+    /* box-shadow:5px 10px 25px rgb(92, 226, 215); */
+    
+    margin-top: 7%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-radius: 10px;
+    position: absolute;
+    font-size: 0.5rem;
+    font-family: apple;
+    left: 37%;
+    border: 2px solid rgb(247, 246, 243);
+
+    
+}
+
+.profilee img{
+    position: absolute;
+    top: 2px;
+    object-fit: cover;
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+}
+.profilee h1{
+position: absolute;
+top: 240px;
+font-size: 25px;
+word-spacing: 5px;
+font-weight:400;
+font-family: apple;
+}
+.profilee h2{
+position: absolute;
+top: 275px;
+font-size: 15px;
+word-spacing: 4px;
+font-family: apple;
+
+}
+.profilee button{
+    height: 45px;
+    width: 155px;
+    transform:translateY(-20px);
+    border-radius: 75px;
+    font-family: apple;
+    background-color:   #0077ED;;
+    border: 2px solid rgb(7, 6, 6);
+
+}
+
+
+.profilee:hover{
+     height: 400px;
+    width: 300px;
+    background-color: white;
+    color: rgb(35, 37, 37);
+    box-shadow:5px 10px 25px rgb(92, 226, 215);
+    
+    margin-top: 5% ;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-radius: 10px;
+    position: absolute;
+    font-size: 0.5rem;
+    font-family: apple;
+    left: 35%;
+    border: 2px solid rgb(13, 19, 19);
+}
+.profilee button:hover{
+    height: 45px;
+    width: 155px;
+    transform:translateY(-20px);
+    border-radius: 75px;
+    font-family: apple;
+    background-color:  white;
+    border: 2px solid #0077ED; ;
+}
+
+.profileee{
+    height: 400px;
+    width: 300px;
+    background-color:white;
+    color: rgb(35, 37, 37);
+    /* box-shadow:5px 10px 25px rgb(92, 226, 215); */
+    
+    margin-top: 7%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-radius: 10px;
+    position: absolute;
+    font-size: 0.5rem;
+    font-family: apple;
+    left: 70%;
+    border: 2px solid rgb(247, 246, 243);
+
+    
+}
+
+.profileee img{
+    position: absolute;
+    top: 2px;
+    object-fit: cover;
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+}
+.profileee h1{
+position: absolute;
+top: 240px;
+font-size: 25px;
+word-spacing: 5px;
+font-weight:400;
+font-family: apple;
+}
+.profileee h2{
+position: absolute;
+top: 275px;
+font-size: 15px;
+word-spacing: 4px;
+font-family: apple;
+
+}
+.profileee button{
+    height: 45px;
+    width: 155px;
+    transform:translateY(-20px);
+    border-radius: 75px;
+    font-family: apple;
+    background-color:   #0077ED;;
+    border: 2px solid rgb(7, 6, 6);
+
+}
+
+
+.profileee:hover{
+     height: 400px;
+    width: 300px;
+    background-color: white;
+    color: rgb(35, 37, 37);
+    box-shadow:5px 10px 25px rgb(92, 226, 215);
+    
+    margin-top: 5% ;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-radius: 10px;
+    position: absolute;
+    font-size: 0.5rem;
+    font-family: apple;
+    left: 68%;
+    border: 2px solid rgb(13, 14, 14);
+}
+.profileee button:hover{
+    height: 45px;
+    width: 155px;
+    transform:translateY(-20px);
+    border-radius: 75px;
+    font-family: apple;
+    background-color:  white;
+    border: 2px solid #0077ED; ;
+}
+
+.click h1{
+    gap
+}
