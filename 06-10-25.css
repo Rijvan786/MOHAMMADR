@@ -55,7 +55,7 @@ html, body{
     filter: blur(2);
     position: absolute;
     bottom:0px;
-    transition: all ease 0.5s;
+    transition: all ease 0.3s;
     border: 0.2 solid black;
     
 }
@@ -184,4 +184,8 @@ html, body{
     position: absolute;
     flex-shrink: none;
 
+}
+#main h1{
+    background: linear-gradient(rgb(18, 100, 18),orange,white);
+    border: 2px solid blue;
 }
